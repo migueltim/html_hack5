@@ -1,0 +1,295 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    font-size: 2.5em;
+    font-weight: 700;
+    z-index: 10;
+    color:#000000;
+    box-sizing: border-box;
+}
+
+
+.punto {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #00bf63; /* Bright green color */
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.en {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.sol{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* imagen_fondo */
+.fondo {
+    position:relative;
+    display: flex;
+    margin-top: 5px;
+    height: fit-content;
+    background: none;
+}
+
+.contenedor-fondo {
+    position: absolute;
+    left: 0px;
+    right: 0;
+    margin-top: -550px;
+    background-position: center center;
+    z-index: -1; 
+    box-sizing: border-box;
+}
+
+.nunca_fue{
+    margin-top: 310px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 10px 90px;
+    background: #00bf63;
+    color: white;
+    margin-left: 15px;
+    margin-right: 1000px;
+}
+
+.tan_facil{
+    background: #00bf63;
+    padding: 10px 90px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 10px;
+    color: white;
+    margin-left: 25px;
+    margin-right: 720px;
+}
+
+.call-to-action-1 {
+    background-color: black;
+    color: white;
+    padding: 8px 90px;
+    font-size: 25px;
+    margin-top: 45px;
+    margin-left: 15px;
+    margin-right: 700px;
+    
+}
+
+.call-to-action-2 {
+    background-color: black;
+    color: white;
+    padding: 6px 95px;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 8px;
+    margin-left: 25px;
+    margin-right: 1050px;
+}
+
+.sol-cre {
+    margin-top: 250px;
+    margin-left: 25px;
+    font-size: 50px;
+    padding: 10px 90px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sin {
+    margin-left: 25px;
+    padding: 10px 90px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+
+/* bloque_imagenes */
+
+.sol-craativ-img {
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.service-box {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left; 
+  max-width: 300px; 
+}
+
+.service-card__image {
+  margin-top: 45px;
+  height: 245px;
+  width: 255px;
+  object-fit: cover;
+  display: block;
+}
+
+.service-card__image--publish {
+  aspect-ratio: 1.1;
+  width: 291px;
+  margin-left: -21px;
+}
+
+.service-card__icon-container {
+  display: flex;
+  flex-direction: row;
+  align-items: left; 
+  justify-content: left;
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: 18px;
+}
+
+.service-card__icon {
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  border-radius: 8px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.service-card__description {
+  margin-top: 12px;
+}
+
+.service-card__description--design {
+  font-size: 20px;
+  letter-spacing: -0.2px;
+}
+
+.service-card__description--development {
+  font-size: 14px;
+  letter-spacing: -0.2px;
+  line-height: 1;
+}
+
+.service-card__description--publishing {
+  font-size: 20px;
+  letter-spacing: -0.4px;
+  word-spacing: 0.7px;
+}
+
+.main-footer {
+  background-color: #00bf63;
+  color: white;
+  height: 87px;
+  margin-top: 49px;
+  margin-inline: 45px;
+  display: flex; 
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-footer__address,
+.main-footer__website,
+.main-footer__phone {
+  font-size: 25px;
+  color: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .bloque-img {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 1180px;
+    height: fit-content;
+    background: none;
+}
+
+.contendor-img {
+    display: flex;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 100px;
+    background-position: center center;
+    z-index: -1; 
+
+}
+
+.espacio-img {
+    margin-right: 8px; 
+}
+
+.dimension-img {
+    height: 350px;
+    width: 250px;
+    object-fit: cover; 
+    display: block;
+}
+
+.img-precio {
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 0;
+    margin-top: 8px; 
+} */
+
+
+
